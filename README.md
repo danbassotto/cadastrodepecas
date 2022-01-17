@@ -1,0 +1,1 @@
+Tarefa efetuada de acordo com Encontro Remoto do dia 21/12 do curso de PROGRAMADOR FULL STACK SENAI.

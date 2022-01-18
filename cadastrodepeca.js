@@ -1,7 +1,7 @@
 // Variável de peso de peças
 
-let pesodapeca = 200;
-if (pesodapeca < 100 )
+let PesodaPeca = 200;
+if (PesodaPeca < 100 )
 { console.log ("Não é possível cadastrar essa peça, pois a mesma possui um peso inferior a capacidade mínima");
 } 
   else {console.log("Cadastro de peça habilitado");
@@ -21,7 +21,7 @@ if (CapacidadeCaixa > 10 )
 let QtdminChar = "P";
 var Conta = (3 - QtdminChar.length);
 if (QtdminChar.length < 3 )
- { console.log (`Erro! O nome da peça deve conter mais que 3 caracteres. A quantidade digitada é de: ${QtdminChar.length} caracteres. Faltam ${Conta} caracteres`);
+ { console.log (`Erro! O nome da peça deve conter no mínimo 3 caracteres. A quantidade digitada é de: ${QtdminChar.length} caracteres. Faltam ${Conta} caracteres`);
 }
  else { console.log ("Cadastro de peça efetuado com sucesso!");
 }
